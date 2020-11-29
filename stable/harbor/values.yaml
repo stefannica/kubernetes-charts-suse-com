@@ -752,6 +752,9 @@ tests:
   dockerCredentials:
     username: ""
     password: ""
+  # Repository from where to pull the images used for the tests.
+  # By default the images are pulled from DockerHub
+  imagesPullRepository: ""
   api:
     # Enable/disable API tests
     enabled: true
